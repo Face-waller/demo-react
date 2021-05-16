@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import {withRouter, Route, Switch, Redirect, } from "react-router-dom";
-import "src/pages/app.css"
+import "src/pages/app.scss"
 import Index from "src/pages/index";
+import newLogo from "src/static/images/newLogo.png"
 
 class App extends Component{
     constructor(props) {
@@ -10,13 +11,12 @@ class App extends Component{
         };
     }
     componentDidMount() {
-
     }
     render() {
         return (
-            <div>
+            <div className='app'>
                 <div className="header">
-                    <div onClick={()=>{this.goIndex()}} className="logo-ico" />
+                    <img src={newLogo}  alt=""/>
                 </div>
                 <div className="placeholder" />
                 <div className="content">
@@ -25,8 +25,8 @@ class App extends Component{
                         <Redirect to='/index' />
                     </Switch>
                 </div>
-
-                <div className="footer">友情链接</div>
+                <div className="footer-spring"/>
+                <div className="footer">react使用-番茄博客</div>
             </div>
         )
     }

@@ -464,7 +464,16 @@ module.exports = function(webpackEnv) {
                   sourceMap: isEnvProduction && shouldUseSourceMap,
                 },
                 'sass-loader'
-              ),
+              ).concat({
+                loader:'sass-resources-loader',
+                options:{
+                  resources:[
+                    // 按照文件路径填写
+                    path.resolve(__dirname,'../src/static/css/ico-common.scss'),
+                    path.resolve(__dirname,'../src/static/css/reset.scss'),
+                  ]
+                }
+              }),
               // Don't consider CSS imports dead code even if the
               // containing package claims to have no side effects.
               // Remove this when webpack adds a warning or an error for this.
