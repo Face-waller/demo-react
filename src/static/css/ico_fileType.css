@@ -1,0 +1,236 @@
+/*
+图标样式文件，
+注释为图标.png设计图里的图层名称，
+便于搜索和定位图标的作用---需要某个图标时，先去设计图找相应图标的图层名称，然后来此文件搜索，若有就引用，没有就添加
+*/
+/*文件目录类型的图标*/
+.folderIcon,.wordIcon,.excelIcon,.textIcon,.pptIcon,.cloudIcon{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("../images/图标.png");
+    transform: translateY(5px);
+}
+/*文件夹*/
+.folderIcon{
+    background-position: -159px -575px;
+}
+/*word*/
+.wordIcon {
+    background-position: -209px -576px;
+}
+/*excel*/
+.excelIcon {
+    background-position: -259px -576px;
+}
+/*text*/
+.textIcon {
+    background-position: -308px -576px;
+}
+/*ppt*/
+.pptIcon {
+    background-position: -358px -576px;
+}
+/*cloud*/
+.cloudIcon {
+    background-position: -407px -626px;
+}
+
+/*缩放按钮*/
+.zoomButton {
+    background-image: url("../images/图标.png");
+    width: 12px;
+    height: 12px;
+    margin-right: 19px;
+    cursor: pointer;
+}
+/*放大*/
+.amplification {
+    background-position: -157px -154px;
+}
+/*缩小*/
+.shrink {
+    background-position: -192px -154px;
+}
+
+/*关闭*/
+.close {
+    background-image: url("../images/图标.png");
+    width: 12px;
+    height: 12px;
+    background-position: -228px -155px;
+    margin-right: 33px;
+    cursor: pointer;
+}
+
+/*列表条目操作选项*/
+.link-ico,.issue-ico,.download-ico,.more-ico,.outsource-ico{
+    display: inline-block;
+    background-image: url("../images/图标.png");
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    padding: 0;
+    cursor: pointer;
+}
+/*链接*/
+.link-ico {
+    background-position: -476px -39px;
+}
+/*发布*/
+.issue-ico {
+    background-position: -504px -38px;
+}
+/*下载*/
+.download-ico {
+    background-position: -535px -38px;
+}
+/*more*/
+.more-ico {
+    background-position: -560px -38px;
+}
+/*外发*/
+.outsource-ico {
+    background-position: -461px -129px;
+}
+
+/*查看*/
+.eyeIco {
+    background-image: url('../images/图标.png');
+    background-position: -697px -92px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+/*导出*/
+.doorRightIco {
+    background-image: url('../images/图标.png');
+    height: 20px;
+    width: 20px;
+    background-position: -153px -91px;
+    cursor: pointer;
+}
+/*导入*/
+.doorLeftIco {
+    background-image: url('../images/图标.png');
+    height: 20px;
+    width: 20px;
+    background-position: -234px -90px;
+    cursor: pointer;
+}
+/*ecr*/
+.lightningIco {
+    background-image: url('../images/图标.png');
+    height: 20px;
+    width: 20px;
+    background-position: -194px -90px;
+    cursor: pointer;
+}
+/*升级*/
+.dragUpIco {
+    background-image: url('../images/图标.png');
+    height: 20px;
+    width: 20px;
+    background-position: -273px -90px;
+    cursor: pointer;
+}
+/*转量产*/
+.multilayerIco {
+    background-image: url('../images/图标.png');
+    height: 20px;
+    width: 20px;
+    background-position: -311px -90px;
+    cursor: pointer;
+}
+/*bianj*/
+.edit-ico {
+    background-image: url('../images/图标.png');
+    height: 20px;
+    width: 20px;
+    background-position: -360px -90px;
+    cursor: pointer;
+}
+/*shanchu*/
+.delete-gray-ico {
+    background-image: url('../images/图标.png');
+    height: 20px;
+    width: 20px;
+    background-position: -125px -91px;
+    cursor: pointer;
+}
+
+
+/*删除人*/
+.tag-close {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    float: right;
+    right: 0;
+    transform: translate(0,50%);
+    margin-right: 10px;
+    background-image: url("../images/图标.png");
+    border-radius: 12px;
+    background-position: -205px -223px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*添加人*/
+.addIco {
+    background-image: url("../images/图标.png");
+    height: 34px;
+    width: 34px;
+    background-position: -154px -212px;
+}
+
+/*加*/
+.uploadIco {
+    display: inline-block;
+    background-image: url('../images/图标.png');
+    background-position: -354px -35px;
+    height: 20px;
+    width: 20px;
+    transform: translateY(5px);
+    cursor: pointer;
+}
+
+/*history*/
+.history-ico{
+    background-image: url('../images/图标.png');
+    background-position: -769px -48px;
+    height: 16px;
+    width: 16px;
+    user-select: none;
+}
+
+/*?*/
+.ask-ico {
+    background-image: url('../images/图标.png');
+    background-position: -690px -48px;
+    height: 16px;
+    width: 16px;
+    user-select: none;
+}
+
+/*新增下级*/
+.newAddChildren-ico {
+    background-image: url('../images/图标.png');
+    background-position: -608px -90px;
+    height: 20px;
+    width: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+/*移动*/
+.move-ico {
+    background-image: url('../images/图标.png');
+    background-position: -310px -129px;
+    height: 20px;
+    width: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+

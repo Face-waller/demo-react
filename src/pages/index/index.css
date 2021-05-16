@@ -1,0 +1,27 @@
+.top-gallery {
+    height: 31.76vh;
+    background-image: url("../../static/images/banner_top.png");
+    background-size: cover;
+}
+/*盒子容器*/
+.content-container {
+    display: flex;
+    background-color: #FAFAFA;
+    /*使用100%而不是vw，是因为如果出现上下滚动条，宽度不是100vw，会导致出现左右滚动条*/
+    width: 100%;
+}
+/*亮色卡片容器*/
+.content-card__container {
+    display: flex;
+    margin: 1.815vh 10.9375vw 2.541vh;
+    background-color:rgba(255,255,255,0.15)
+}
+
+.player-entry {
+    float: right;
+    width: 640px;
+    height: 404px;
+    background-image: url("../../static/images/nightCity.jpg");
+    background-size: cover;
+    cursor: pointer;
+}

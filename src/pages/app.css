@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/*头部*/
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5.445vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.15);
+    padding: 0 10.9375vw;
+}
+
+/*用户*/
+.account {
+    cursor: pointer;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #C2C2C2;
+}
+.account > span:first-child {
+    color: #673EF9;
+}
+.account-menubar {
+    cursor: pointer;
+    text-align: center;
+    color: #6E7073;
+}
+.account-menubar:hover {
+    background-color: #F5F5F5;
+}
+
+/*占位*/
+.placeholder {
+    height: 5.445vh;
+}
+
+/*主体内容*/
+.content {
+
+}
+
+/*尾部*/
+.footer {
+    width: 100%;
+    height: 19.691vh;
+    background-color: #F5F5F5;
+    padding: 0 10.9375vw;
+}
+
+/*account的popover ANT的样式*/
+.ant-popover-arrow {
+    display: none;
+}
+.ant-popover-inner-content {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 2px;
+    width: 70px;
+    background-color: #FFFFFF;
+}
