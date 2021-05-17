@@ -11,7 +11,7 @@ function IndexContent (props) {
     },[])
 
     return (
-        <div style={{height: 3000,width: '58.021vw',backgroundColor: 'white'}}>
+        <div className='index-content'>
             <div>你好1</div>
             <div>你好2</div>
             <div>你好</div>
@@ -101,7 +101,7 @@ function IndexContent (props) {
             <div>你好</div>
             <div>你好</div>
             <div>你好</div>
-            <div>你好</div>
+            <div>你好end</div>
 
         </div>
     )

@@ -13,7 +13,6 @@
       background-color: #FFFFFF;
       /*左右盒子间隙的宽 = 总宽度78.126vw - 左盒子宽 - 右盒子宽*/
       margin-right: calc(78.125vw - 19.0625vw - 58.021vw);
-      overflow-y: auto;
       > .content-container__left--item {
         cursor: pointer;
         padding: 15px;
