@@ -1,7 +1,24 @@
 import React, {useEffect, useState} from "react";
+import {withRouter} from "react-router-dom";
 
-export function examplePureComponent(props) {
+function examplePureComponent(props) {
+    const [data,setData] = useState({
+        name: 'alien',
+        age: 28,
+    })
+    const handlerClick = ()=>{
+        data.age ++
+        setData(data)
+    }
     return (
-        <div>pure</div>
+        <div className="box" >
+            <div className="show" >
+                <div> 你的姓名是: { data.name } </div>
+                <div> 年龄： { data.age  }</div>
+                <button onClick={ handlerClick } >age++</button>
+            </div>
+        </div>
     )
 }
+
+export default withRouter(examplePureComponent())

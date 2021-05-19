@@ -1,12 +1,11 @@
 import "src/component/index-menu.scss"
 
-import React, {useEffect, useState} from "react";
+import React, {useEffect} from "react";
 
 import "./index-content.scss"
-import {Route, Switch} from "react-router-dom";
 import {useRouteMatch} from "react-router";
-
-import {examplePureComponent} from "src/component/example/example-pure-component";
+import examplePureComponent from "src/component/example/example-pure-component";
+import {Route, Switch} from "react-router-dom";
 
 function IndexContent (props) {
 
@@ -19,7 +18,7 @@ function IndexContent (props) {
     return (
         <div className='index-content'>
             <Switch>
-                <Route path={`${match.path}/abc`} component={examplePureComponent} />
+                <Route path={`${props.match.path}/pure`} component={examplePureComponent}/>
             </Switch>
         </div>
     )

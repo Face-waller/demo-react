@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="352a79d4-828c-44b7-b5e5-9cd1f4da907b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/example/example-pure-component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/example-pure-component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/example-pure-component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/index-content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/index-content.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +61,7 @@
       <workItem from="1621138589414" duration="8000" />
       <workItem from="1621138964629" duration="13424000" />
       <workItem from="1621327203948" duration="1340000" />
+      <workItem from="1621351701667" duration="2241000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1621139057539</created>
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621263411880</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1">
+      <created>1621351734400</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621351734400</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

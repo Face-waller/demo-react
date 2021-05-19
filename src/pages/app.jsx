@@ -13,7 +13,7 @@ function App(props) {
             <div className="placeholder" />
             <div className="content">
                 <Switch>
-                    <Route path='/' component={Index} />
+                    <Route path='/index' component={Index} />
                     <Redirect to='/index' />
                 </Switch>
             </div>
