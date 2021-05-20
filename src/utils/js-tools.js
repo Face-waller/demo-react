@@ -9,31 +9,38 @@ function getOptions() {
             children: [
                 {
                     id: 1,
-                    name: 'Component'
+                    name: 'Component',
+                    path: 'component'
                 },
                 {
                     id: 2,
-                    name: 'PureComponent'
+                    name: 'PureComponent',
+                    path: 'pure-component'
                 },
                 {
                     id: 3,
-                    name: 'memo'
+                    name: 'memo',
+                    path: 'memo'
                 },
                 {
                     id: 4,
-                    name: 'forwardRef'
+                    name: 'forwardRef',
+                    path: 'forward-ref'
                 },
                 {
                     id: 5,
-                    name: 'lazy'
+                    name: 'lazy',
+                    path: 'lazy',
                 },
                 {
                     id: 6,
-                    name: 'Suspense'
+                    name: 'Suspense',
+                    path: 'suspense'
                 },
                 {
                     id: 7,
-                    name: 'Profiler'
+                    name: 'Profiler',
+                    path: 'profiler'
                 },
             ]
         },
@@ -43,27 +50,33 @@ function getOptions() {
             children: [
                 {
                     id: 1,
-                    name: 'createElement'
+                    name: 'createElement',
+                    path: 'create-element-api'
                 },
                 {
                     id: 2,
-                    name: 'cloneElement'
+                    name: 'cloneElement',
+                    path: 'clone-element-api',
                 },
                 {
                     id: 3,
-                    name: 'createContext'
+                    name: 'createContext',
+                    path: 'create-context-api',
                 },
                 {
                     id: 4,
-                    name: 'createFactory'
+                    name: 'createFactory',
+                    path: 'create-factory-api',
                 },
                 {
                     id: 5,
-                    name: 'createRef'
+                    name: 'createRef',
+                    path: 'create-ref-api',
                 },
                 {
                     id: 6,
-                    name: 'Children'
+                    name: 'Children',
+                    path: 'children-api'
                 },
             ]
         },
@@ -73,49 +86,59 @@ function getOptions() {
             children: [
                 {
                     id: 1,
-                    name: 'useState'
+                    name: 'useState',
+                    path: 'use-state',
                 },
                 {
                     id: 2,
-                    name: 'useEffect'
+                    name: 'useEffect',
+                    path: 'use-effect',
                 },
                 {
                     id: 3,
-                    name: 'useMemo'
+                    name: 'useMemo',
+                    path: 'use-memo',
                 },
                 {
                     id: 4,
-                    name: 'useCallback'
+                    name: 'useCallback',
+                    path: 'use-callback',
                 },
                 {
                     id: 5,
-                    name: 'useRef'
+                    name: 'useRef',
+                    path: 'use-ref',
                 },
                 {
                     id: 6,
-                    name: 'useLayoutEffect'
+                    name: 'useLayoutEffect',
+                    path: 'use-layout-effect',
                 },
                 {
                     id: 7,
-                    name: 'useReducer'
+                    name: 'useReducer',
+                    path: 'use-reducer',
                 },
                 {
                     id: 8,
-                    name: 'useContext'
+                    name: 'useContext',
+                    path: 'use-context',
                 },
                 {
                     id: 9,
-                    name: 'useImperativeHandle'
+                    name: 'useImperativeHandle',
+                    path: 'use-imperative-handle'
                 },
                 {
                     id: 10,
-                    name: 'useTransition'
+                    name: 'useTransition',
+                    path: 'use-transition',
                 },
             ]
         },
         {
             id: 4,
-            name: 'redux使用'
+            name: 'redux使用',
         },
     ]
 }

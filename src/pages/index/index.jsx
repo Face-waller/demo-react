@@ -10,8 +10,9 @@ function Index(props) {
     return (
         <div className="index-container">
             <div className='content-card__container'>
-                <IndexMenu/>
-                <Route path={props.match.path} component={IndexContent} />
+                {/*可选参数*/}
+                <Route path={`${props.match.url}/:componentPath?`} component={IndexMenu} />
+                <Route path={`${props.match.url}/:componentPath`} component={IndexContent} />
             </div>
         </div>
     )

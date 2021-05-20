@@ -1,27 +1,19 @@
 import "src/component/index-menu.scss"
-
-import React, {useEffect} from "react";
-
+import React from "react";
 import "./index-content.scss"
-import {useRouteMatch} from "react-router";
-import examplePureComponent from "src/component/example/example-pure-component";
-import {Route, Switch} from "react-router-dom";
-
+import {Route, Switch, withRouter} from "react-router-dom";
+import ExamplePureComponent from "src/component/example/example-pure-component";
+import ExampleMemo from "src/component/example/example-memo";
 function IndexContent (props) {
-
-    let match = useRouteMatch();
-
-    useEffect(()=>{
-
-    },[])
-
+    console.log(props)
     return (
         <div className='index-content'>
             <Switch>
-                <Route path={`${props.match.path}/pure`} component={examplePureComponent}/>
+                <Route path={`/index/pure-component`} component={ExamplePureComponent}/>
+                <Route path={`/index/memo`} component={ExampleMemo}/>
             </Switch>
         </div>
     )
 }
 
-export default IndexContent
+export default withRouter(IndexContent)

@@ -4,17 +4,20 @@ import {DownOutlined, RightOutlined} from "@ant-design/icons";
 import React, {useEffect, useState} from "react";
 import {getChildrenByOptionId, getOptions} from "src/utils/js-tools";
 import {Table} from "antd";
+import {withRouter} from "react-router-dom";
 const {Column} = Table
 
 function IndexMenu (props) {
     // 选项列表
     const [options,setOptions] = useState([])
-    // 已选选项
+    // 已选选项id
     const [selectedOptionId, setSelectedOptionId] = useState(null)
-    // 已展开项
+    // 已展开项id
     const [expandedOptionId, setExpandedOptionId] = useState(null)
     // 左侧已展开项表格数据
     const [expandedTableData, setExpandedTableData] = useState([])
+    // 已选表格行Id
+    const [selectedTableRowId, setSelectedTableRowId] = useState(null)
 
     const leftOptionClick = (e,id)=> {
         setSelectedOptionId(id)
@@ -24,19 +27,12 @@ function IndexMenu (props) {
             leftOptionIcoClick(null,'right', id)
         }
     }
+
     const tableRowEvent = (record)=>{
         return {
             onClick: event => {
-                let tempOptions = JSON.parse(JSON.stringify(options))
-                let option = tempOptions.find(n=>n.id === expandedOptionId)
-                option.childrenSelectedId = record.id
-                setOptions(tempOptions)
-
-            }, // 点击行
-            onDoubleClick: event => {},
-            onContextMenu: event => {},
-            onMouseEnter: event => {}, // 鼠标移入行
-            onMouseLeave: event => {},
+                props.history.push(`/index/${record.path}`)
+            },
         };
     }
     const leftOptionIcoClick = (e,mark,id)=>{
@@ -45,6 +41,7 @@ function IndexMenu (props) {
         }
         switch (mark) {
             case 'down':{
+                setSelectedOptionId(null)
                 setExpandedOptionId(null)
                 setExpandedTableData([])
                 break;
@@ -52,7 +49,7 @@ function IndexMenu (props) {
             case 'right':{
                 // 获取当前表格数据
                 let list = getChildrenByOptionId(id)
-                setSelectedOptionId(id)
+                setSelectedOptionId(null)
                 setExpandedOptionId(id)
                 setExpandedTableData(list)
                 break;
@@ -70,6 +67,13 @@ function IndexMenu (props) {
         leftOptionClick(null,id)
     },[])
 
+    useEffect(()=>{
+        let theF = options.find(n=>n.id === expandedOptionId)
+        if (theF) {
+            let theOne = theF.children.find(n=>n.path === props.match.params.componentPath)
+            setSelectedTableRowId(theOne ? theOne.id : null)
+        }
+    },[props.match.params,options,expandedOptionId])
     return (
         <div className='content-container__left'>
             {
@@ -103,7 +107,7 @@ function IndexMenu (props) {
                                             rowKey='id'
                                             onRow={tableRowEvent}
                                             rowClassName= {(record, index) => {
-                                                return record.id === option.childrenSelectedId ? 'row-active' : null
+                                                return (expandedOptionId === option.id && record.id === selectedTableRowId) ? 'row-active' : null
                                             }}
                                         >
                                             <Column
@@ -129,4 +133,4 @@ function IndexMenu (props) {
     )
 }
 
-export default IndexMenu
+export default withRouter(IndexMenu)
