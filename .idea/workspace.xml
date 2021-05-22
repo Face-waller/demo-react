@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="352a79d4-828c-44b7-b5e5-9cd1f4da907b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/example/example-clone-element-api.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/example/example-create-context-api.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/example/example-create-element-api.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/example/example-create-ref-api.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/example/example-lazy.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/example/example-suspense.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/not-found.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/example-children-api.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/index-content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/index-content.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/js-tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/js-tools.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +68,7 @@
       <workItem from="1621560578523" duration="336000" />
       <workItem from="1621569051215" duration="693000" />
       <workItem from="1621587159303" duration="575000" />
-      <workItem from="1621652710182" duration="9662000" />
+      <workItem from="1621652710182" duration="11317000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1621139057539</created>
@@ -133,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621657552532</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1">
+      <created>1621673510022</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1621673510023</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

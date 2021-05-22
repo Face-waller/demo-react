@@ -12,11 +12,13 @@ import CreateElementApi from "src/component/example/example-create-element-api";
 import CloneElementApi from "src/component/example/example-clone-element-api";
 import CreateContextApi from "src/component/example/example-create-context-api";
 import CreateRefApi from "./example/example-create-ref-api";
+import ChildrenApi from "./example/example-children-api";
 
 function IndexContent (props) {
     return (
         <div className='index-content'>
             <Switch>
+                <Route path={`/index/children-api`} component={ChildrenApi}/>
                 <Route path={`/index/create-ref-api`} component={CreateRefApi}/>
                 <Route path={`/index/create-context-api`} component={CreateContextApi}/>
                 <Route path={`/index/clone-element-api`} component={CloneElementApi}/>
