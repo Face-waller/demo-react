@@ -69,7 +69,7 @@ function IndexMenu (props) {
 
     useEffect(()=>{
         let theF = options.find(n=>n.id === expandedOptionId)
-        if (theF) {
+        if (theF && theF.children) {
             let theOne = theF.children.find(n=>n.path === props.match.params.componentPath)
             setSelectedTableRowId(theOne ? theOne.id : null)
         }
@@ -95,7 +95,7 @@ function IndexMenu (props) {
                                     {option.name}
                                 </span>
                             </div>
-                            <div style={{display: expandedOptionId === option.id ? 'block' : 'none'}}>
+                            <div style={{display: expandedOptionId === option.id ? 'block' : 'none',marginLeft: 12}}>
                                 {
                                     expandedTableData.length > 0 ?
                                         <Table

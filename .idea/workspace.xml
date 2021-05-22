@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="352a79d4-828c-44b7-b5e5-9cd1f4da907b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/example/example-memo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/example-forward-ref.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/example-memo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/example-memo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/example/example-pure-component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/example-pure-component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/index-content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/index-content.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/index-menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/index-menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/js-tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/js-tools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +43,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -72,7 +68,11 @@
       <workItem from="1621398547402" duration="9048000" />
       <workItem from="1621438370900" duration="2079000" />
       <workItem from="1621473426827" duration="289000" />
-      <workItem from="1621479367324" duration="1307000" />
+      <workItem from="1621479367324" duration="2559000" />
+      <workItem from="1621560578523" duration="336000" />
+      <workItem from="1621569051215" duration="693000" />
+      <workItem from="1621587159303" duration="575000" />
+      <workItem from="1621652710182" duration="1441000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1621139057539</created>
@@ -109,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621398737041</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1">
+      <created>1621481473471</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621481473471</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

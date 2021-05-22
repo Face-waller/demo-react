@@ -19,11 +19,10 @@ function ExamplePureComponent(props) {
                 break;
             }
         }
-
     }
     return (
         <div className="box" >
-            <div className="show" >
+            <div className="example1" >
                 <div> 你的姓名是: { data.name } </div>
                 <div> 年龄： { data.age  }</div>
                 <button onClick={ handlerClick.bind(this,'浅拷贝') } >age++浅拷贝</button>
