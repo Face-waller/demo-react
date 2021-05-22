@@ -65,16 +65,11 @@ function getOptions() {
                 },
                 {
                     id: 4,
-                    name: 'createFactory',
-                    path: 'create-factory-api',
-                },
-                {
-                    id: 5,
                     name: 'createRef',
                     path: 'create-ref-api',
                 },
                 {
-                    id: 6,
+                    id: 5,
                     name: 'Children',
                     path: 'children-api'
                 },
