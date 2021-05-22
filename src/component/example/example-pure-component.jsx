@@ -1,3 +1,8 @@
+/*
+纯组件PureComponent会浅比较，props和state是否相同，来决定是否重新渲染组件。
+所以一般用于性能调优，减少render次数。
+ */
+
 import React, {useEffect, useState} from "react";
 import {withRouter} from "react-router-dom";
 
