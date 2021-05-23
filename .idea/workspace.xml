@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="352a79d4-828c-44b7-b5e5-9cd1f4da907b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/example/example-children-api.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/react-hooks/use-callback.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/react-hooks/use-context.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/react-hooks/use-effect.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/react-hooks/use-layout-effect.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/react-hooks/use-memo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/react-hooks/use-reducer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/react-hooks/use-ref.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/react-hooks/use-state.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/example-children-api.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/api/children-api.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/example-clone-element-api.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/api/clone-element-api.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/example-create-context-api.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/api/create-context-api.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/example-create-element-api.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/api/create-element-api.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/example-create-ref-api.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/api/create-ref-api.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/example-forward-ref.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/component/forward-ref.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/example-lazy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/component/lazy.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/example-memo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/component/memo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/example-pure-component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/component/pure-component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/example-suspense.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/component/suspense.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/index-content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/index-content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/index-menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/index-menu.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +66,10 @@
       <recent name="$PROJECT_DIR$/src/pages/index" />
       <recent name="$PROJECT_DIR$/src/static/css" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/component/example/api" />
+      <recent name="$PROJECT_DIR$/src/component/example/component" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,7 +90,7 @@
       <workItem from="1621560578523" duration="336000" />
       <workItem from="1621569051215" duration="693000" />
       <workItem from="1621587159303" duration="575000" />
-      <workItem from="1621652710182" duration="11317000" />
+      <workItem from="1621652710182" duration="17109000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1621139057539</created>
@@ -133,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621673510023</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1">
+      <created>1621675606323</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1621675606323</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

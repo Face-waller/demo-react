@@ -6,7 +6,7 @@
 import React, {useEffect, useState} from "react";
 import {withRouter} from "react-router-dom";
 
-function ExamplePureComponent(props) {
+function PureComponent(props) {
     const [data,setData] = useState({
         name: 'alien',
         age: 28,
@@ -37,4 +37,4 @@ function ExamplePureComponent(props) {
     )
 }
 
-export default withRouter(ExamplePureComponent)
+export default withRouter(PureComponent)

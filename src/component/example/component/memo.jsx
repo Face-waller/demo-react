@@ -23,7 +23,7 @@ const controlIsRender = (pre,next)=>{
 }
 const NewTexMemo = memo(TextMemo,controlIsRender)
 
-function ExampleMemo(props) {
+function Memo(props) {
     const [num,setNum] = useState(1)
     const [number,setNumber] = useState(1)
     console.log('组件渲染',num)
@@ -46,4 +46,4 @@ function ExampleMemo(props) {
     )
 }
 
-export default withRouter(ExampleMemo)
+export default withRouter(Memo)

@@ -103,7 +103,6 @@ function IndexMenu (props) {
                                             pagination={false}
                                             showHeader={false}
                                             size='small'
-                                            scroll={{y:'300px'}}
                                             rowKey='id'
                                             onRow={tableRowEvent}
                                             rowClassName= {(record, index) => {
