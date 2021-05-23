@@ -124,11 +124,6 @@ function getOptions() {
                     name: 'useImperativeHandle',
                     path: 'use-imperative-handle'
                 },
-                {
-                    id: 10,
-                    name: 'useTransition',
-                    path: 'use-transition',
-                },
             ]
         },
         {
