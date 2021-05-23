@@ -129,6 +129,23 @@ function getOptions() {
         {
             id: 4,
             name: 'redux使用',
+            children: [
+                {
+                    id: 1,
+                    name: 'redux-example',
+                    path: 'redux-example',
+                },
+                {
+                    id: 2,
+                    name: 'react-redux-example',
+                    path: 'react-redux-example',
+                },
+                {
+                    id: 3,
+                    name: 'redux-example-saga-example',
+                    path: 'redux-example-saga-example',
+                },
+            ]
         },
     ]
 }

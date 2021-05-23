@@ -21,7 +21,6 @@ message.config({
 // 将axios加到Component原型链
 React.Component.prototype.axios = axios;
 
-
 ReactDOM.render(
     <BrowserRouter>
         <ClientLayout />

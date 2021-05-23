@@ -22,11 +22,15 @@ import UseLayoutEffect from "src/component/example/react-hooks/use-layout-effect
 import UseReducer from "src/component/example/react-hooks/use-reducer";
 import UseContext from "src/component/example/react-hooks/use-context";
 import UseImperativeHandle from "src/component/example/react-hooks/use-imperative-handle";
+import ReduxExample from "src/component/example/redux/redux-example/redux-example";
+import ReactReduxExample from "src/component/example/redux/react-redux-example/react-redux-example";
 
 function IndexContent (props) {
     return (
         <div className='index-content'>
             <Switch>
+                <Route path={`/index/react-redux-example`} component={ReactReduxExample}/>
+                <Route path={`/index/redux-example`} component={ReduxExample}/>
                 <Route path={`/index/use-imperative-handle`} component={UseImperativeHandle}/>
                 <Route path={`/index/use-context`} component={UseContext}/>
                 <Route path={`/index/use-reducer`} component={UseReducer}/>

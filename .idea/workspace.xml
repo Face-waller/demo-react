@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="352a79d4-828c-44b7-b5e5-9cd1f4da907b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/example/react-hooks/use-imperative-handle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/default-status.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/react-redux-example.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-example/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-example/default-status.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-example/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-example/redux-example.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/redux-saga-example.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/sagas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/index-content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/index-content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/js-tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/js-tools.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/component/example/redux/react-redux-example" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -45,11 +58,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/component/example/redux/react-redux-example" />
       <recent name="$PROJECT_DIR$/src/static/images" />
       <recent name="$PROJECT_DIR$/src/pages/index" />
       <recent name="$PROJECT_DIR$/src/static/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/component/example/redux/redux-example" />
       <recent name="$PROJECT_DIR$/src/component/example/api" />
       <recent name="$PROJECT_DIR$/src/component/example/component" />
     </key>
@@ -73,7 +88,8 @@
       <workItem from="1621560578523" duration="336000" />
       <workItem from="1621569051215" duration="693000" />
       <workItem from="1621587159303" duration="575000" />
-      <workItem from="1621652710182" duration="18472000" />
+      <workItem from="1621652710182" duration="24671000" />
+      <workItem from="1621781461390" duration="1954000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1621139057539</created>
@@ -152,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621742489843</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1">
+      <created>1621743990976</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1621743990976</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
