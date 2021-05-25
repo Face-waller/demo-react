@@ -63,7 +63,7 @@ React-Redux 提供Provider组件，可以让容器组件拿到state。
  */
 
 import React from "react";
-import {withRouter} from "react-router-dom";
+import {BrowserRouter, withRouter} from "react-router-dom";
 import connect from "react-redux/lib/connect/connect";
 import {createStore} from "redux";
 import actions from "src/component/example/redux/react-redux-example/actions";
@@ -97,11 +97,24 @@ function TodoList(props) {
     </div>
 }
 
-TodoList = connect(mapStateToProps,mapDispatchToProps)(TodoList)
+class Counter extends React.Component {
+    render() {
+        return (
+            <div>
+                <p>{this.props.count}</p>
+                <button onClick={this.props.onAdd}>Add</button>
+            </div>
+        )
+    }
+}
+
+TodoList = connect(mapStateToProps,mapDispatchToProps)(Counter)
 
 function ReactReduxExample(props) {
     return <Provider store={store}>
-        <TodoList />
+        <div>
+            <TodoList />
+        </div>
     </Provider>
 }
 
