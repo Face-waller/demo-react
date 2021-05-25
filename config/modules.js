@@ -33,7 +33,7 @@ function getAdditionalModulePaths(options = {}) {
     return null;
   }
 
-  // Allow the user set the `baseUrl` to `appSrc`.
+  // Allow the users set the `baseUrl` to `appSrc`.
   if (path.relative(paths.appSrc, baseUrlResolved) === '') {
     return [paths.appSrc];
   }

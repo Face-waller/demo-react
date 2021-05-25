@@ -9,3 +9,4 @@ const reducer = (state = defaultStatus, action) => {
 }
 
 export default reducer
+

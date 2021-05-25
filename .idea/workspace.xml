@@ -2,17 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="352a79d4-828c-44b7-b5e5-9cd1f4da907b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/redux-thunk-example.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/actions/action-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/actions/users/user-action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/actions/users/user-command.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/reducers/users/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/reducers/users/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/users/user-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/default-status.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/default-status.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/react-redux-example.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/react-redux-example.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/redux-saga-example.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/redux-saga-example.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/index-content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/index-content.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/js-tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/js-tools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/modules.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpackDevServer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-example/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-example/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/redux-thunk-example.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/redux-thunk-example.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +63,11 @@
       <recent name="$PROJECT_DIR$/src/static/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/reducers/users" />
+      <recent name="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/actions" />
+      <recent name="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/actions/user" />
       <recent name="$PROJECT_DIR$/src/component/example/redux" />
       <recent name="$PROJECT_DIR$/src/component/example/redux/redux-example" />
-      <recent name="$PROJECT_DIR$/src/component/example/api" />
-      <recent name="$PROJECT_DIR$/src/component/example/component" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -86,7 +92,7 @@
       <workItem from="1621652710182" duration="24671000" />
       <workItem from="1621781461390" duration="2022000" />
       <workItem from="1621870223783" duration="2875000" />
-      <workItem from="1621908864285" duration="7183000" />
+      <workItem from="1621908864285" duration="17527000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1621139057539</created>
@@ -186,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621906948642</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="redux">
+      <created>1621924564538</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1621924564538</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +222,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="init" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux" />
   </component>
 </project>
