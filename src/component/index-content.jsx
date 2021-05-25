@@ -24,11 +24,15 @@ import UseContext from "src/component/example/react-hooks/use-context";
 import UseImperativeHandle from "src/component/example/react-hooks/use-imperative-handle";
 import ReduxExample from "src/component/example/redux/redux-example/redux-example";
 import ReactReduxExample from "src/component/example/redux/react-redux-example/react-redux-example";
+import ReduxThunkExample from "src/component/example/redux/redux-thunk-example/redux-thunk-example"
+import ReduxSagaExample from "src/component/example/redux/redux-saga-example/redux-saga-example";
 
 function IndexContent (props) {
     return (
         <div className='index-content'>
             <Switch>
+                <Route path={`/index/redux-saga-example`} component={ReduxSagaExample}/>
+                <Route path={`/index/redux-thunk-example`} component={ReduxThunkExample}/>
                 <Route path={`/index/react-redux-example`} component={ReactReduxExample}/>
                 <Route path={`/index/redux-example`} component={ReduxExample}/>
                 <Route path={`/index/use-imperative-handle`} component={UseImperativeHandle}/>

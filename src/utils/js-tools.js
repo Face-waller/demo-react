@@ -142,8 +142,13 @@ function getOptions() {
                 },
                 {
                     id: 3,
-                    name: 'redux-example-saga-example',
-                    path: 'redux-example-saga-example',
+                    name: 'redux-thunk-example',
+                    path: 'redux-thunk-example',
+                },
+                {
+                    id: 4,
+                    name: 'redux-saga-example',
+                    path: 'redux-saga-example',
                 },
             ]
         },

@@ -59,29 +59,25 @@ React-Redux 提供Provider组件，可以让容器组件拿到state。
       </Provider>,
       document.getElementById('root')
     )
-
  */
 
 import React from "react";
-import {BrowserRouter, withRouter} from "react-router-dom";
-import connect from "react-redux/lib/connect/connect";
-import {createStore} from "redux";
+import {withRouter} from "react-router-dom";
+import { connect } from 'react-redux'
 import actions from "src/component/example/redux/react-redux-example/actions";
-import reducer from "src/component/example/redux/react-redux-example/reducer";
 import {Provider} from "react-redux";
 
-const store = createStore(reducer)
+import store from "src/component/example/redux/react-redux-example/store";
 
 function mapStateToProps(state) {
     return {
-        foo: state.foo,
         count: state.count,
     }
 }
 
 function mapDispatchToProps(dispatch) { // 默认传递参数就是dispatch
     return {
-        onClick: (type) => {
+        onClick: type => {
             dispatch(type);
         }
     };
@@ -89,32 +85,19 @@ function mapDispatchToProps(dispatch) { // 默认传递参数就是dispatch
 
 // 容器组件
 function TodoList(props) {
-    const {foo,onClick} = props
+    const {count,onClick} = props
     return <div>
-        <div>{foo}</div>
-        <button onClick = {onClick(actions.increase)}>点击increase</button>
-        <button onClick = {onClick(actions.decrease)}>点击decrease</button>
+        <div>{count}</div>
+        <button onClick = {()=> onClick(actions.increase)}>点击increase</button>
+        <button onClick = {()=> onClick(actions.decrease)}>点击decrease</button>
     </div>
 }
 
-class Counter extends React.Component {
-    render() {
-        return (
-            <div>
-                <p>{this.props.count}</p>
-                <button onClick={this.props.onAdd}>Add</button>
-            </div>
-        )
-    }
-}
-
-TodoList = connect(mapStateToProps,mapDispatchToProps)(Counter)
+TodoList = connect(mapStateToProps,mapDispatchToProps)(TodoList)
 
 function ReactReduxExample(props) {
     return <Provider store={store}>
-        <div>
-            <TodoList />
-        </div>
+        <TodoList />
     </Provider>
 }
 

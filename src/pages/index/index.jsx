@@ -6,6 +6,8 @@ import 'src/pages/index/index.scss'
 import IndexMenu from "src/component/index-menu";
 import IndexContent from "../../component/index-content";
 
+import {Provider} from "react-redux";
+
 function Index(props) {
     return (
         <div className="index-container">

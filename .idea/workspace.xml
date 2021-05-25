@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="352a79d4-828c-44b7-b5e5-9cd1f4da907b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/redux-thunk-example.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/default-status.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/default-status.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/react-redux-example.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/react-redux-example.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-example/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-example/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/redux-saga-example.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/redux-saga-example.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/index-content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/index-content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/js-tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/js-tools.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +58,7 @@
       <recent name="$PROJECT_DIR$/src/static/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/component/example/redux" />
       <recent name="$PROJECT_DIR$/src/component/example/redux/redux-example" />
       <recent name="$PROJECT_DIR$/src/component/example/api" />
       <recent name="$PROJECT_DIR$/src/component/example/component" />
@@ -77,7 +85,8 @@
       <workItem from="1621587159303" duration="575000" />
       <workItem from="1621652710182" duration="24671000" />
       <workItem from="1621781461390" duration="2022000" />
-      <workItem from="1621870223783" duration="2139000" />
+      <workItem from="1621870223783" duration="2875000" />
+      <workItem from="1621908864285" duration="7183000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1621139057539</created>
@@ -170,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621784333343</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1">
+      <created>1621906948642</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1621906948642</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
