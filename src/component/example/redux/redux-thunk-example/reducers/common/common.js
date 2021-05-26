@@ -5,7 +5,7 @@ const defaultState={
 };
 export default function Common(state = defaultState, action) {
     switch(action.type){
-        case ActionTypes.SET_IS_LOADING:
+        case ActionTypes.UPDATE_IS_LOADING:
             return {
                 ...state,
                 isLoading: action.isLoading,

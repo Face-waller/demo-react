@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="352a79d4-828c-44b7-b5e5-9cd1f4da907b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/actions/common/common-action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/actions/common/common-action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/actions/users/user-action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/actions/users/user-action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducers/common/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducers/common/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducers/users/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducers/users/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/sagas/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/sagas/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/users/user-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/users/user-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/users/user-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/users/user-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/actions/common/common-action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/actions/common/common-action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/actions/users/user-action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/actions/users/user-action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/actions/users/user-command.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/actions/users/user-command.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/reducers/common/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/reducers/common/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/reducers/users/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/reducers/users/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <workItem from="1621870223783" duration="2875000" />
       <workItem from="1621908864285" duration="17592000" />
       <workItem from="1621992147155" duration="20561000" />
-      <workItem from="1622026279327" duration="2513000" />
+      <workItem from="1622026279327" duration="2698000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1621139057539</created>
@@ -250,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622043495066</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="demo-saga">
+      <created>1622044126981</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1622044126981</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,8 +281,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="redux" />
     <MESSAGE value="demo-saga暂时不做" />
-    <MESSAGE value="demo-saga" />
     <MESSAGE value="demo-thunk" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo-thunk" />
+    <MESSAGE value="demo-saga" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo-saga" />
   </component>
 </project>

@@ -4,16 +4,16 @@ const UserCommand = {
     addUser(inputUserName) {
         return (dispatch)=>{
             dispatch({
-                type: ActionTypes.SET_IS_LOADING,
+                type: ActionTypes.UPDATE_IS_LOADING,
                 isLoading: true
             })
             setTimeout(()=>{
                 dispatch({
-                    type: ActionTypes.USER_ADD,
+                    type: ActionTypes.UPDATE_USER_ADD,
                     inputUserName
                 });
                 dispatch({
-                    type: ActionTypes.SET_IS_LOADING,
+                    type: ActionTypes.UPDATE_IS_LOADING,
                     isLoading: false
                 })
             },2000);
