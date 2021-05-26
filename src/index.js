@@ -7,8 +7,11 @@ import 'antd/dist/antd.css';
 
 import axios from 'src/utils/http'
 
-import ClientLayout from 'src/pages/app';
+import App from 'src/pages/app';
 import {BrowserRouter} from "react-router-dom";
+
+import store from "src/component/example/redux/redux-thunk-example/store";
+import {Provider} from "react-redux";
 
 // AntD 的消息弹窗配置
 message.config({
@@ -22,9 +25,11 @@ message.config({
 React.Component.prototype.axios = axios;
 
 ReactDOM.render(
-    <BrowserRouter>
-        <ClientLayout />
-    </BrowserRouter>
+    <Provider store={store}>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    </Provider>
     ,
   document.getElementById('root')
 );
