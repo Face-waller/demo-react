@@ -1,7 +1,7 @@
 import ActionTypes from 'src/component/example/redux/redux-thunk-example/actions/action-types'
 
 const UserCommand = {
-    addUser(inputUser) {
+    addUser(inputUserName) {
         return (dispatch)=>{
             dispatch({
                 type: ActionTypes.SET_IS_LOADING,
@@ -10,7 +10,7 @@ const UserCommand = {
             setTimeout(()=>{
                 dispatch({
                     type: ActionTypes.USER_ADD,
-                    inputUser
+                    inputUserName
                 });
                 dispatch({
                     type: ActionTypes.SET_IS_LOADING,

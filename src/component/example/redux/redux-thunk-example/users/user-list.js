@@ -8,21 +8,19 @@ import UserCommand from "src/component/example/redux/redux-thunk-example/actions
 function UserList(props) {
     const userInputChange = (event)=> {
         props.dispatch({
-            type: ActionTypes.INPUT_USER,
-            inputUser: {
-                userName: event.target.value
-            }
+            type: ActionTypes.UPDATE_INPUT_USER,
+            inputUserName: event.target.value
         });
     }
     const addHandler = ()=> {
-        if (props.inputUser.userName)
-            props.dispatch(UserCommand.addUser(props.inputUser));
+        if (props.inputUserName)
+            props.dispatch(UserCommand.addUser(props.inputUserName));
     }
     return (
         <div>
             <Row type="flex" justify="start">
                 <Col span={4}>
-                    <Input size="small" value={props.inputUser.userName} placeholder="用户名"
+                    <Input size="small" value={props.inputUserName} placeholder="用户名"
                            onChange={(event) => userInputChange(event)}/>
                 </Col>
                 <Col span={1}>
@@ -42,7 +40,7 @@ function UserList(props) {
 
 function mapStateToProps(store) {
     return {
-        inputUser: store.userStore.inputUser,
+        inputUserName: store.userStore.inputUserName,
         userList: store.userStore.userList,
     }
 }

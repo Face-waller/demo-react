@@ -2,19 +2,19 @@ import ActionTypes from 'src/component/example/redux/redux-thunk-example/actions
 
 const defaultState={
     userList: [],
-    inputUser: {},
+    inputUserName: '',
 };
 export default function Users(state = defaultState, action) {
     switch(action.type){
         case ActionTypes.USER_ADD:
             return {
                 ...state,
-                userList: state.userList.concat(action.inputUser.userName),
+                userList: state.userList.concat(action.inputUserName),
             };
-        case ActionTypes.INPUT_USER:
+        case ActionTypes.UPDATE_INPUT_USER:
             return {
                 ...state,
-                inputUser: action.inputUser,
+                inputUserName: action.inputUserName,
             }
         default:
             return state;

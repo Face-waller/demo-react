@@ -10,7 +10,9 @@ import axios from 'src/utils/http'
 import App from 'src/pages/app';
 import {BrowserRouter} from "react-router-dom";
 
+// redux-thunk异步方案
 // import store from 'src/component/example/redux/redux-thunk-example/store'
+// redux-saga异步方案
 import store from "src/component/example/redux/redux-saga-example/store";
 
 import {Provider} from "react-redux";
