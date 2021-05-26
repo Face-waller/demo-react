@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="352a79d4-828c-44b7-b5e5-9cd1f4da907b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/actions/action-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/actions/action-types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducers/common/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducers/common/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducers/common/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducers/common/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducers/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducers/users/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/actions/users/user-action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/actions/users/user-action.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducers/users/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducers/users/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/redux-saga-example.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/redux-saga-example.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/sagas/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/sagas/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/users/user-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/users/user-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/redux-thunk-example.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/redux-thunk-example.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/other/index-content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/other/index-content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +87,8 @@
       <workItem from="1621781461390" duration="2022000" />
       <workItem from="1621870223783" duration="2875000" />
       <workItem from="1621908864285" duration="17592000" />
-      <workItem from="1621992147155" duration="20238000" />
+      <workItem from="1621992147155" duration="20561000" />
+      <workItem from="1622026279327" duration="1252000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1621139057539</created>
@@ -226,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622024471909</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="demo-saga暂时不做">
+      <created>1622024804981</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1622024804981</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,4 +1,5 @@
 export default {
     USER_ADD: 'USER_ADD',
-    INPUT_USER: 'INPUT_USER',
+    SET_INPUT_USER: 'SET_INPUT_USER',
+    UPDATE_INPUT_USER: 'UPDATE_INPUT_USER',
 };

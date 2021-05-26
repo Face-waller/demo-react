@@ -8,24 +8,22 @@ function UserList(props) {
     const userInputChange = (event)=> {
         debugger
         props.dispatch({
-            type: ActionTypes.INPUT_USER,
-            inputUser: {
-                userName: event.target.value
-            }
+            type: ActionTypes.SET_INPUT_USER,
+            inputUserName: event.target.value
         });
     }
     const addHandler = ()=> {
-        if (props.inputUser.userName)
+        if (props.inputUserName)
             props.dispatch({
                 type: ActionTypes.USER_ADD,
-                inputUser: props.inputUser,
+                inputUserName: props.inputUserName,
             });
     }
     return (
         <div>
             <Row type="flex" justify="start">
                 <Col span={4}>
-                    <Input size="small" value={props.inputUser.userName} placeholder="用户名"
+                    <Input size="small" value={props.inputUserName} placeholder="用户名"
                            onChange={(event) => userInputChange(event)}/>
                 </Col>
                 <Col span={1}>
@@ -45,7 +43,7 @@ function UserList(props) {
 
 function mapStateToProps(store) {
     return {
-        inputUser: store.userStore.inputUser,
+        inputUserName: store.userStore.inputUserName,
         userList: store.userStore.userList,
     }
 }

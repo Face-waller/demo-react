@@ -4,7 +4,7 @@ import UserList from "src/component/example/redux/redux-saga-example/users/user-
 
 function ReduxSagaExample(props) {
     return <div>
-        Redux-Saga-Example
+        Redux-Saga
         <UserList/>
     </div>
 }

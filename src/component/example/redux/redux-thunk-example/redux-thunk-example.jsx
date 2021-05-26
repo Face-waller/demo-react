@@ -4,7 +4,7 @@ import UserList from "src/component/example/redux/redux-thunk-example/users/user
 
 function ReduxThunkExample(props) {
     return <div>
-        Redux-Thunk-Example
+        Redux-Thunk
         <UserList/>
     </div>
 }

@@ -25,28 +25,28 @@ function* userAdd(action) {
         isLoading: false
     })
 }
-function * inputUser(action) {
+function * inputUserName(action) {
     yield put({
-        type: ActionTypes.INPUT_USER,
-        inputUser: action.inputUser,
+        type: ActionTypes.UPDATE_INPUT_USER,
+        inputUserName: action.inputUserName,
     })
 }
 
 function* commonSaga() {
-    yield* takeEvery(ActionTypes.SET_IS_LOADING, setIsLoading)
+    yield takeEvery(ActionTypes.SET_IS_LOADING, setIsLoading)
 }
 
 function* userAddSaga() {
-    yield* takeEvery(ActionTypes.USER_ADD, userAdd)
+    yield takeEvery(ActionTypes.USER_ADD, userAdd)
 }
 
 function* inputSaga() {
-    yield* takeEvery(ActionTypes.INPUT_USER, inputUser)
+    yield takeEvery(ActionTypes.SET_INPUT_USER, inputUserName)
 }
 
 export default function* rootSaga() {
-    yield* fork(commonSaga)
-    yield* fork(userAddSaga)
-    yield* fork(inputSaga)
+    yield fork(commonSaga)
+    yield fork(userAddSaga)
+    yield fork(inputSaga)
 }
 
