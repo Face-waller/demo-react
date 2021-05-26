@@ -3,8 +3,8 @@ import {Route, useRouteMatch, withRouter} from 'react-router-dom'
 
 import 'src/pages/index/index.scss'
 
-import IndexMenu from "src/component/index-menu";
-import IndexContent from "../../component/index-content";
+import IndexMenu from "src/component/other/index-menu";
+import IndexContent from "../../component/other/index-content";
 
 import {Provider} from "react-redux";
 

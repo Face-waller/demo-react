@@ -1,8 +1,7 @@
-import "src/component/index-menu.scss"
 import React from "react";
 import "./index-content.scss"
 import {Redirect, Route, Switch, withRouter} from "react-router-dom";
-import NotFound from "src/component/not-found";
+import NotFound from "src/component/other/not-found";
 import PureComponent from "src/component/example/component/pure-component";
 import Memo from "src/component/example/component/memo";
 import ForwardRef from "src/component/example/component/forward-ref";

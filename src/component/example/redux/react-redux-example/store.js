@@ -9,7 +9,7 @@ const loggerMiddleware = createLogger({ collapsed: true });
 /*
 const reduxDevtools = window.devToolsExtension ? window.devToolsExtension(): f=>f    //调用chrome的redux插件
 const store = createStore(
-    reducer,
+    reducers,
     compose(
     applyMiddleware(thunk),
     reduxDevtools

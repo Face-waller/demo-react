@@ -1,7 +1,7 @@
 import ActionTypes from 'src/component/example/redux/redux-thunk-example/actions/action-types'
 
-export default class UserCommand {
-    static addUser(inputUser){
+const UserCommand = {
+    addUser(inputUser) {
         return (dispatch)=>{
             dispatch({
                 type: ActionTypes.SET_IS_LOADING,
@@ -20,3 +20,5 @@ export default class UserCommand {
         }
     }
 }
+
+export default UserCommand

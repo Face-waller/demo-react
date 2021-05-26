@@ -1,4 +1,4 @@
-import "src/component/index-menu.scss"
+import "src/component/other/index-menu.scss"
 
 import {DownOutlined, RightOutlined} from "@ant-design/icons";
 import React, {useEffect, useState} from "react";

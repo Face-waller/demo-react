@@ -112,7 +112,7 @@ function getOptions() {
                 {
                     id: 7,
                     name: 'useReducer',
-                    path: 'use-reducer',
+                    path: 'use-reducers',
                 },
                 {
                     id: 8,
