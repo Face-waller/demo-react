@@ -1,4 +1,4 @@
-import ActionTypes from 'src/component/example/redux/redux-thunk-example/actions/action-types'
+import ActionTypes from 'src/component/example/redux/redux-saga-example/actions/action-types'
 
 const defaultState={
     isLoading: false,

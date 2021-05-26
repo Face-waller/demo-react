@@ -1,4 +1,4 @@
-import Common from 'src/component/example/redux/redux-thunk-example/reducers/common/common'
+import Common from 'src/component/example/redux/redux-saga-example/reducers/common/common'
 
 export default {
     common: Common

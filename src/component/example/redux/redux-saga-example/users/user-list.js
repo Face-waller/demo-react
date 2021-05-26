@@ -2,7 +2,7 @@ import {connect} from "react-redux";
 import React from "react";
 import {Button, Col, Input, List, Row} from "antd";
 
-import ActionTypes from 'src/component/example/redux/redux-thunk-example/actions/action-types'
+import ActionTypes from 'src/component/example/redux/redux-saga-example/actions/action-types'
 
 function UserList(props) {
     const userInputChange = (event)=> {
