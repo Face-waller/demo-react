@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="352a79d4-828c-44b7-b5e5-9cd1f4da907b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/actions/action-types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/actions/common/common-action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/actions/users/user-action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducers/common/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducers/common/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducers/users/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducers/users/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/sagas/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/users/user-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/react-hooks/use-reducer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/react-hooks/use-reducer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/react-redux-example/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/redux-saga-example.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/redux-saga-example.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-saga-example/sagas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/actions/users/user-command.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/actions/users/user-command.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/redux-thunk-example.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/redux-thunk-example.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/example/redux/redux-thunk-example/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/index-content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/other/index-content.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/index-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/other/index-content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/index-menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/other/index-menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/index-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/other/index-menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/not-found.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/other/not-found.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/js-tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/js-tools.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +80,7 @@
       <workItem from="1621781461390" duration="2022000" />
       <workItem from="1621870223783" duration="2875000" />
       <workItem from="1621908864285" duration="17592000" />
-      <workItem from="1621992147155" duration="15734000" />
+      <workItem from="1621992147155" duration="19780000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1621139057539</created>
@@ -226,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621999576955</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="demo-saga">
+      <created>1622019931102</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1622019931102</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +233,7 @@
     <MESSAGE value="1" />
     <MESSAGE value="redux" />
     <MESSAGE value="demo-thunk" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo-thunk" />
+    <MESSAGE value="demo-saga" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo-saga" />
   </component>
 </project>
