@@ -24,8 +24,7 @@ function UserList(props) {
                            onChange={(event) => userInputChange(event)}/>
                 </Col>
                 <Col span={1}>
-                    <Button type="primary" onClick={() => addHandler()} size="small"
-                            loading={props.status === ActionTypes.USER_ADD}>Add</Button>
+                    <Button type="primary" onClick={() => addHandler()} size="small">Add</Button>
                 </Col>
             </Row>
             <List

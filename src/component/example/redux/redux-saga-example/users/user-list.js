@@ -6,7 +6,6 @@ import ActionTypes from 'src/component/example/redux/redux-saga-example/actions/
 
 function UserList(props) {
     const userInputChange = (event)=> {
-        debugger
         props.dispatch({
             type: ActionTypes.SET_INPUT_USER,
             inputUserName: event.target.value
@@ -15,7 +14,7 @@ function UserList(props) {
     const addHandler = ()=> {
         if (props.inputUserName)
             props.dispatch({
-                type: ActionTypes.USER_ADD,
+                type: ActionTypes.SET_USER_ADD,
                 inputUserName: props.inputUserName,
             });
     }
@@ -27,8 +26,7 @@ function UserList(props) {
                            onChange={(event) => userInputChange(event)}/>
                 </Col>
                 <Col span={1}>
-                    <Button type="primary" onClick={() => addHandler()} size="small"
-                            loading={props.status === ActionTypes.USER_ADD}>Add</Button>
+                    <Button type="primary" onClick={() => addHandler()} size="small">Add</Button>
                 </Col>
             </Row>
             <List

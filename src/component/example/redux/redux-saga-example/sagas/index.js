@@ -5,23 +5,23 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 function* setIsLoading(action) {
     yield put({
-        type: ActionTypes.SET_IS_LOADING,
+        type: ActionTypes.UPDATE_IS_LOADING,
         isLoading: action.isLoading
     });
 }
 function* userAdd(action) {
     yield put({
-        type: ActionTypes.SET_IS_LOADING,
+        type: ActionTypes.UPDATE_IS_LOADING,
         isLoading: true
     })
     // 延迟 1s 在执行 + 1操作
     yield call(delay, 2000);
     yield put({
-        type: ActionTypes.USER_ADD,
-        inputUser: action.inputUser
+        type: ActionTypes.UPDATE_USER_ADD,
+        inputUserName: action.inputUserName
     });
     yield put({
-        type: ActionTypes.SET_IS_LOADING,
+        type: ActionTypes.UPDATE_IS_LOADING,
         isLoading: false
     })
 }
@@ -37,7 +37,7 @@ function* commonSaga() {
 }
 
 function* userAddSaga() {
-    yield takeEvery(ActionTypes.USER_ADD, userAdd)
+    yield takeEvery(ActionTypes.SET_USER_ADD, userAdd)
 }
 
 function* inputSaga() {
